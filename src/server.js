@@ -15,7 +15,6 @@ const init = async () => {
   server.route(routes);
   await server.start();
   console.log(`Server berjalan pada port ${server.info.uri}`);
-  console.log(process.env.NODE_ENV)
 };
 
 init('');
